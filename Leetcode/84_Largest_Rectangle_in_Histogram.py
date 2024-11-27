@@ -2,6 +2,8 @@ from typing import List
 
 
 class Solution:
+    """This is to find the maximum rectangular area can be formed by the array heights"""
+
     def largestRectangleArea(self, heights: List[int]) -> int:
         max_area = 0
         stack = []  # pair (index, height)
